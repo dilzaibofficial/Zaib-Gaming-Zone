@@ -1,0 +1,10 @@
+{
+  "name": "Zaib Gaming Zone",
+  "short_name": "Zaib Gaming",
+  "description": "Clifton's premier PS5 & PS4 gaming zone — Book your slot online!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#6366f1",
+  "categories": ["entertainment", "games", "sports"]
+}
