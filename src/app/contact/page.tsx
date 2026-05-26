@@ -21,7 +21,7 @@ export default function ContactPage() {
     }
     setLoading(true);
     try {
-      await submitContactMessage({ ...form, status: 'pending' });
+      await submitContactMessage({ ...form, status: 'new' });
       setSent(true);
       toast.success('Message sent! We\'ll get back to you soon. 🎮');
       setForm({ name: '', email: '', phone: '', subject: '', message: '' });
